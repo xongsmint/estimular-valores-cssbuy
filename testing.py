@@ -32,4 +32,5 @@ async def get_user_repos(user: str): # ~2s execution time
         repos = await repos.all_inner_texts()
         return repos
 
-
+repos = asyncio.run(get_user_repos("xongsmint"))
+print(repos)
