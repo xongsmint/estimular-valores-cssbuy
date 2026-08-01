@@ -1,0 +1,1 @@
+nao consegui resolver o simulate_cost() nao carregar os atributos
